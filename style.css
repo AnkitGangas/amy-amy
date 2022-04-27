@@ -1,0 +1,501 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+html{
+    font-size:100%;
+}
+.navbar{
+    background-color:rgb(173, 48, 90);
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-size: 3rem;
+    padding-left: 5%;
+}
+.navbar a{
+   color:white;
+}
+.navbar-nav{
+    margin-left: auto;
+    color: white;
+}
+.navbar-toggler{
+    right: 7%;
+    top:.2rem;
+    background:pink;
+    
+}
+button{
+    margin-left: 2rem;
+}
+.beauty{
+    background-image:url(img/Main-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh; 
+}
+.inner{
+    font-size: 6rem;
+    color:rgb(173, 48, 90);
+    font-weight: bold;
+    padding-top: 15%;
+    padding-left: 17rem;
+    padding-right: 2rem;
+   
+}
+.img-fluid{
+    margin-left: 1rem;
+    margin-right: 2.5rem;
+    padding-left: 2rem;
+
+}
+.yuth{
+    width: 100%;
+    height: auto;
+    margin:1rem ;
+    border-radius: 3.5rem
+}
+.images-content{
+margin-top: 2rem;
+}
+.yuths{
+    width: 100%;
+    height: auto;
+    margin:1rem ;
+    border-radius: 3.5rem
+}
+.img-fluid img{
+    border-radius: 3.5rem
+}
+.container-fluid {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+hr{
+    width:40%;
+    margin-top:.5rem;
+    padding-bottom: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(173, 48, 90);
+    border: 2px solid rgb(173, 48, 90);
+}
+#c1{
+    padding: 4rem;
+    background-color: pink;
+    border-radius:4rem 0rem 4rem 0rem;
+    margin: 1.5rem ;
+    height: 53vh;
+    width:100%;
+    color:rgb(173, 48, 90);
+    text-align: center;
+}
+#c1 h1{
+    padding-bottom: 1rem;
+}
+#c1 h3{
+    padding-bottom: 1rem;
+}
+#c1 p{
+    font-size: 1.3rem;
+}
+.middle{
+ background-image: url(img/middle-img.jpg);
+ background-size: auto;
+ color: rgb(173, 48, 90);
+ margin-top: 2rem;
+ height: 50vh;
+ text-align: center;
+ font-size:5rem;
+}
+.inners{
+    padding-top: 8rem;
+    padding-left: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+ .card{
+    border: .3rem solid rgb(173, 48, 90);
+    background-color:white;
+    margin-top: 4rem;
+    height:auto;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    padding-left:21%;
+    padding-right:12%;
+    padding-top: 2.5rem;
+}
+.card-text{
+    color:pink;
+}
+.card-title{
+    justify-content:center;
+    text-align:center;
+    color:black;
+}
+#footer-body{
+    background:rgb(173, 48, 90);
+    padding-right: 5rem;
+}
+.footer-text{
+    color: white;
+    padding-right:5rem ;
+}
+#footer-address-title{
+    font-size: 1.5rem ;
+    padding-top: 2rem;
+}
+#footer-address{
+    padding: 1rem;
+}
+#instagram{
+    padding: .4rem;
+}
+#fa1{
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+} 
+  .fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    color:white ;
+}
+ /* color
+ fb:#3B5998
+ tw:#55ACEE
+ insta:#dd4b39*/
+
+.fa-twitter {
+    color: white ; 
+}
+  
+  .fa-instagram {
+    color:white ;
+  }
+
+/* contact us */
+.beauty1{
+    background-image:url(img/Group\ 17.jpg);
+    color:rgb(173, 48, 90);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 70vh;
+    justify-content: center;
+    padding-right: 12rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    font-weight: bold;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-inner{
+    text-align: center;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-left: 10rem;
+    font-size: 8rem;
+}
+.contact-para{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+#our-contact{
+    margin-left: 2rem;
+}
+.map{
+    width:95%;
+    height:33vh;
+}
+.form{
+    margin-top:3rem;
+    font-size: 1.5rem;
+}
+.forms{
+    margin-top:3rem;
+    font-size: 1.5rem;
+}
+.form-group{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+/* About Us */
+.beauty2{
+    background-image:url(img/Group\ 17.jpg);
+    color:rgb(173, 48, 90);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width:100%;
+    height: 70vh;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-inner{
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 8rem;
+    justify-content: center;
+}
+.about-para{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+.about-paras{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+.why{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-top: 4%;
+    text-align: center;
+    justify-content: center;
+    color:rgb(173, 48, 90) ;
+
+}
+.container-about{
+    justify-content: center;
+}
+.dress-title{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
+.dress-para{
+    text-align: center;
+    justify-content: center;
+  font-size: 1.3rem;
+}
+#a1{
+    background-image: url(img/one.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .5rem 0rem .5rem 0rem;
+    height: 55vh;
+    width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+#b1{
+    position: relative;
+    top: 8.1rem;
+}
+#a2{
+    background-image: url(img/two.png);
+    border-radius: .5rem 0rem .5rem 0rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 55vh;
+    width: 95%;
+}
+#a3{
+    background-image: url(img/three.png);
+    border-radius: .5rem 0rem .5rem 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 55vh;
+    width: 95%;
+}
+/* header responsive code */
+
+@media(max-width:1024px){
+    html {
+        font-size: 65%;
+    }
+    #a1{
+    height: 70vh;
+    }
+    #a2{
+    height: 70vh;
+    }
+    #a3{
+    height: 70vh;
+    }
+    #c1{
+    height: 100vh;
+    }
+    .dress-para{
+        font-size: 1.4rem;
+    }
+    .form-control{
+        width: 70%;
+    }
+    .form{
+        margin-left: 8rem;
+    }
+    .footer-text{
+        margin-left: 4rem;
+    }
+    button{
+        margin-left: 2rem;
+    }
+    .map{
+        width:95%;
+        height:58vh;
+    }
+    .yuths{
+        height: 100vh;
+    }
+    #c1 h1{
+        padding-top: 5rem;
+    }
+    .navbar-nav{
+        margin-left: auto;
+        color: white;
+    }
+    
+}
+
+@media(max-width:768px){
+    html {
+        font-size: 55%;
+    }
+    #c1{
+        text-align: center;
+        justify-content: center;
+    }
+    #c1 h1{
+        padding-top: 7rem;
+    }
+
+    .yuths{
+        height: 100vh;
+    }
+    #a1{
+        height: 95vh;
+    }
+    #a2{
+        height: 95vh;
+    }
+    #a3{
+        height: 95vh;
+    }
+    #b1{
+        padding-top: 15rem;
+    }
+    button{
+        margin-left: 2rem;
+    }
+    .map{
+        width: 100%;
+        height:44vh;
+    }
+    .navbar-nav{
+        margin-left: 4rem;
+
+    }
+
+}
+@media(max-width:425px){
+    html {
+        font-size: 45%;
+    }
+    .card {
+        margin-right: 18rem;
+    }
+    #c1{
+        width: 95%;
+        height: 53vh;
+    }
+    #c1 h1{
+        padding-top: 2rem;
+    }
+
+
+    #a1{
+        height: 70vh;
+    }
+    #a2{
+        height: 70vh;
+    }
+    #a3{
+        height: 70vh;
+    }
+    #b1{
+        padding-top: 9rem;
+    }
+    .yuth{
+        width: 95%;
+        height: 100vh;
+    }    
+    .yuths{
+        width: 95%;
+        height: 100vh;
+    }
+    .forms{
+        margin-right:12rem ;
+        margin-top: 0rem;
+    }
+    button{
+        margin-left: 2rem;
+    }
+    hr{
+        width: 35%;
+    }
+    .map{
+        width: 92%;
+        height:44vh;
+    }
+    .navbar-nav{
+        margin-left: 3rem;
+       color: white;
+    }
+}
+@media(max-width:320px){
+    html {
+        font-size: 30%;
+    }
+    #c1{
+        width: 95%;
+        height: 40vh;
+    }
+    #a1{
+    height: 51vh;
+    }
+    #a2{
+    height: 51vh;
+    }
+    #a3{
+    height: 51vh;
+    }
+    #b1{
+    padding-top: 14rem;
+    }
+    .map{
+        width: 92%;
+        height:44vh;
+    }
+    .navbar-nav{
+        margin-left: 3rem;
+        color: white;
+    }
+}
